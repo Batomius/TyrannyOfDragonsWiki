@@ -10,7 +10,7 @@ body {
 
 h2{
     text-align: left;
-font-family: 'Eras Bold ITC', 'Arial Bold';
+font-family: 'ITC Serif Gothic';
 font-size:xx-large;
     color:rgb(229, 168, 26);
 }
@@ -155,12 +155,18 @@ background-attachment:local ,scroll, fixed;
 
 @font-face {
     font-family: 'ITC Serif Gothic'; 
-    src: url("/Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf") format("opentype");
+    src: url("../Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf") format("opentype");
+    src: url("../main/Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf") format("opentype");
+    src: url("/TyrannyOfDragonsWiki//Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf") format("opentype")
 }
 
 @font-face {
     font-family: 'Quaint Gothic'; 
     src: url("/Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype");
+    src: url("../Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype");
+    src: url("../main/Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype");
+    src: url("/TyrannyOfDragonsWiki//Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype")
 }
+
 
 
