@@ -148,7 +148,9 @@ background-attachment:local ,scroll, fixed;
 
 @font-face {
     font-family: 'Handwritten Comic'; 
-    src: url("/Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf") format("opentype");
+    src: url("../Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf") format("opentype");
+    src: url("../main/Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf") format("opentype");
+    src: url("/TyrannyOfDragonsWiki//Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf") format("opentype")
 }
 
 @font-face {
