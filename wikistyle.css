@@ -1,7 +1,7 @@
 
 body {
     text-align: left;
-    font-family: 'Eras Bold ITC', 'Arial Bold';
+    font-family: "Handwritten Comic", 'Eras Bold ITC', 'Arial Bold';
     font-size: large;
     color: whitesmoke;
 }
@@ -10,20 +10,20 @@ h2{
     text-align: left;
 font-family: 'Eras Bold ITC', 'Arial Bold';
 font-size:xx-large;
-    color:rgb(209, 156, 33);
+    color:rgb(229, 168, 26);
 }
 
-html {padding-top: 2.5%;
+html {padding-top: 13%;
 padding-left: 5%;
 padding-right: 5%;}
 
 html {height: 100vh;
-background-image: url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Background%20-%20Black%20TP.png?raw=true), url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Issue%201%20Cover%20LowRes.jpg?raw=true);
+background-image: url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/HORIZONTAL%20TITLE%203%20lowres.jpg?raw=true), url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Background%20-%20Black%20TP.png?raw=true), url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Issue%201%20Cover%20LowRes.jpg?raw=true);
 background-color: rgb(0, 0, 35);
-background-size: 92.5%, cover;
-background-repeat: repeat-y, no-repeat;
-background-position:50% 50%, top;
-background-attachment: scroll, fixed;
+background-size: 95%, 92.5%, cover;
+background-repeat: no-repeat, repeat-y, no-repeat;
+background-position:top, 50% 50%, top;
+background-attachment:local ,scroll, fixed;
 }
 
 
@@ -53,15 +53,16 @@ background-attachment: scroll, fixed;
    }
 
    .characterinfo table {
-    position: relative top;
+    position: absolute;
+    top: 250px;
     border-style: solid;
     border-collapse: collapse;
-    border-color: rgb(209, 156, 33);
+    border-color: rgb(229, 168, 26);
     width: 20em;
     text-align: left;
 }
 .characterinfo td {
-    border-color: rgb(209, 156, 33);
+    border-color: rgb(229, 168, 26);
     border-style: solid;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -74,8 +75,8 @@ background-attachment: scroll, fixed;
     border-style: solid;
     font-weight: bold;
     font-size: x-large;
-    border-color: rgb(209, 156, 33);
-    background-color: rgb(248, 208, 114);
+    border-color: rgb(229, 168, 26);
+    background-color: rgb(229, 168, 26);
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -94,3 +95,67 @@ background-attachment: scroll, fixed;
     text-align: left;
     font-weight: bold;
 }
+
+.titmen
+{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.titmen table
+{
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: rgb(229, 168, 26);
+    text-align: center;
+}
+
+.titmen th
+{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(229, 168, 26);
+    border-bottom-style: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.titmen td 
+{
+    text-align: center;
+    border-style: solid;
+    font-weight: bold;
+    font-size: x-large;
+    border-color: rgb(229, 168, 26);
+    border-top-style: hidden;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.parent-nodes {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+@font-face {
+    font-family: 'Handwritten Comic'; 
+    src: url("https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf");
+}
+
+@font-face {
+    font-family: 'ITC Serif Gothic'; 
+    src: url("https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf");
+}
+
+@font-face {
+    font-family: 'Quaint Gothic'; 
+    src: url("https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Fonts/Quaint%20Gothic.otf");
+}
+
+
