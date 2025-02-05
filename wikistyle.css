@@ -18,7 +18,6 @@ padding-left: 5%;
 padding-right: 5%;}
 
 html {height: 100vh;
-font-family: 'Handwritten Comic'; 
 background-image: url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/HORIZONTAL%20TITLE%203%20lowres.jpg?raw=true), url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Background%20-%20Black%20TP.png?raw=true), url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Issue%201%20Cover%20LowRes.jpg?raw=true);
 background-color: rgb(0, 0, 35);
 background-size: 95%, 92.5%, cover;
@@ -51,6 +50,7 @@ background-attachment:local ,scroll, fixed;
     margin-left: auto;
     margin-right: auto;
     width: 33%;
+    padding-left: 10px;
    }
 
    .characterinfo table {
@@ -146,17 +146,17 @@ background-attachment:local ,scroll, fixed;
 
 @font-face {
     font-family: 'Handwritten Comic'; 
-    src: url("https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf");
+    src: url("/Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf");
 }
 
 @font-face {
     font-family: 'ITC Serif Gothic'; 
-    src: url("https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf");
+    src: url("/Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf");
 }
 
 @font-face {
     font-family: 'Quaint Gothic'; 
-    src: url("https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Fonts/Quaint%20Gothic.otf");
+    src: url("/Wiki%20Fonts/Quaint%20Gothic.otf");
 }
 
 
