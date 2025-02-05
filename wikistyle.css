@@ -1,0 +1,96 @@
+
+body {
+    text-align: left;
+    font-family: 'Eras Bold ITC', 'Arial Bold';
+    font-size: large;
+    color: whitesmoke;
+}
+
+h2{
+    text-align: left;
+font-family: 'Eras Bold ITC', 'Arial Bold';
+font-size:xx-large;
+    color:rgb(209, 156, 33);
+}
+
+html {padding-top: 2.5%;
+padding-left: 5%;
+padding-right: 5%;}
+
+html {height: 100vh;
+background-image: url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Background%20-%20Black%20TP.png?raw=true), url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Issue%201%20Cover%20LowRes.jpg?raw=true);
+background-color: rgb(0, 0, 35);
+background-size: 92.5%, cover;
+background-repeat: repeat-y, no-repeat;
+background-position:50% 50%, top;
+background-attachment: scroll, fixed;
+}
+
+
+
+  .sideimagel{
+     float: left;
+     padding-right: 10px;
+   }
+
+   .sideimager{
+     float: right;
+     padding-left: 10px;
+   }
+
+   .textunderimage{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+   }
+
+   .characterinfo{
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+   }
+
+   .characterinfo table {
+    position: relative top;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: rgb(209, 156, 33);
+    width: 20em;
+    text-align: left;
+}
+.characterinfo td {
+    border-color: rgb(209, 156, 33);
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.characterinfo th {
+    text-align: center;
+    border-style: solid;
+    font-weight: bold;
+    font-size: x-large;
+    border-color: rgb(209, 156, 33);
+    background-color: rgb(248, 208, 114);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.characterinfo table td:nth-child(2)
+{
+    text-align: right;
+    font-weight: normal;
+}
+
+.characterinfo table td:nth-child(1)
+{
+    text-align: left;
+    font-weight: bold;
+}
