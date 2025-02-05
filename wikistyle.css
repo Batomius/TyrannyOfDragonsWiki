@@ -146,17 +146,17 @@ background-attachment:local ,scroll, fixed;
 
 @font-face {
     font-family: 'Handwritten Comic'; 
-    src: url("/Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf");
+    src: url("/Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'ITC Serif Gothic'; 
-    src: url("/Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf");
+    src: url("/Wiki%20Fonts/ITC%20Serif%20Gothic%20-%20Extra%20Bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'Quaint Gothic'; 
-    src: url("/Wiki%20Fonts/Quaint%20Gothic.otf");
+    src: url("/Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype");
 }
 
 
