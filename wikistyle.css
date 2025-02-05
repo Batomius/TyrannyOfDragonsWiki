@@ -11,8 +11,15 @@ body {
 h2{
     text-align: left;
 font-family: 'ITC Serif Gothic';
-font-size:xx-large;
+font-size: 2em;
     color:rgb(229, 168, 26);
+}
+
+h1 {
+    text-align: left;
+    font-family: 'ITC Serif Gothic';
+    font-size: 3em;
+        color:rgb(202, 73, 103);
 }
 
 html {padding-top: 15%;
