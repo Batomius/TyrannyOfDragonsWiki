@@ -18,6 +18,7 @@ padding-left: 5%;
 padding-right: 5%;}
 
 html {height: 100vh;
+font-family: 'Handwritten Comic'; 
 background-image: url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/HORIZONTAL%20TITLE%203%20lowres.jpg?raw=true), url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Background%20-%20Black%20TP.png?raw=true), url(https://github.com/Batomius/TyrannyOfDragonsWiki/blob/main/Wiki%20Images/Issue%201%20Cover%20LowRes.jpg?raw=true);
 background-color: rgb(0, 0, 35);
 background-size: 95%, 92.5%, cover;
