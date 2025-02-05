@@ -8,6 +8,13 @@ body {
     color: whitesmoke;
 }
 
+h4{
+    text-align: center;
+font-family: 'ITC Serif Gothic';
+font-size: 2em;
+    color:rgb(229, 168, 26);
+}
+
 h2{
     text-align: left;
 font-family: 'ITC Serif Gothic';
@@ -181,7 +188,6 @@ background-attachment:local ,scroll, fixed;
 
 @font-face {
     font-family: 'Quaint Gothic'; 
-    src: url("/Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype");
     src: url("../Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype");
     src: url("../main/Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype");
     src: url("/TyrannyOfDragonsWiki//Wiki%20Fonts/Quaint%20Gothic.otf") format("opentype")
