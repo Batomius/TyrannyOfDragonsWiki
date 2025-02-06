@@ -166,10 +166,28 @@ background-attachment:local ,scroll, fixed;
     text-align: center;
 }
 
-.parent-nodes {
+.parent-node {
     color: #00000000;
+    font-size: 0px;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.parent-nodes{
+    color: #00000000;
+    font-size: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.wiki-name-ref
+{
+    color: #00000000;
+    font-size: 0px;
+    position: absolute;
+    bottom: 0px;
     left: 0px;
 }
 
@@ -179,6 +197,8 @@ background-attachment:local ,scroll, fixed;
     src: url("../main/Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf") format("opentype");
     src: url("/TyrannyOfDragonsWiki//Wiki%20Fonts/Handwritten%20Comic%20v3%20body.otf") format("opentype")
 }
+    
+
 
 @font-face {
     font-family: 'ITC Serif Gothic'; 
