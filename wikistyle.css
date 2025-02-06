@@ -15,6 +15,14 @@ font-size: 2em;
     color:rgb(229, 168, 26);
 }
 
+h3 {
+    text-align: left;
+    font-family: 'ITC Serif Gothic';
+    font-size: 1.25em;
+    text-decoration: underline;
+        color:rgb(202, 73, 103);
+}
+
 h2{
     text-align: left;
 font-family: 'ITC Serif Gothic';
