@@ -62,8 +62,20 @@ background-attachment:local ,scroll, fixed;
      padding-left: 10px;
    }
 
+   .sideimager p {
+    padding: 0px;
+   }
+
    .textunderimage{
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+   }
+
+   .textunderimagecenter{
+    display: inline-block;
+    align-self: center;
     margin-left: auto;
     margin-right: auto;
     width: 50%
