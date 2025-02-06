@@ -167,9 +167,10 @@ background-attachment:local ,scroll, fixed;
 }
 
 .parent-nodes {
+    color: #00000000;
     position: absolute;
-    bottom: 5%;
-    right: 5%;
+    bottom: 10px;
+    left: 0px;
 }
 
 @font-face {
