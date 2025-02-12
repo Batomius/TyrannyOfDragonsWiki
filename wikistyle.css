@@ -90,8 +90,8 @@ background-attachment:local ,scroll, fixed;
    }
 
    .characterinfo table {
-    position: absolute;
-    top: 250px;
+    position: relative;
+    Bottom: 480px;
     border-style: solid;
     border-collapse: collapse;
     border-color: rgb(229, 168, 26);
