@@ -50,7 +50,10 @@ background-position:top, 50% 50%, top;
 background-attachment:local ,scroll, fixed;
 }
 
-
+.map{
+    max-width: 100%;
+    max-height: auto;
+}
 
   .sideimagel{
      float: left;
