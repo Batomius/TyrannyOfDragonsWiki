@@ -51,11 +51,8 @@ background-attachment:local ,scroll, fixed;
 }
 
   .map{
-    padding: 0;
-    display: block;
-    max-height: auto;
-    max-width: 85%;
-}   
+    object-fit: cover;
+} 
 
   .sideimagel{
      float: left;
