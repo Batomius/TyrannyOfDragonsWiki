@@ -93,11 +93,11 @@ background-attachment:local ,scroll, fixed;
 
    .Farkle table {
     position: relative;
-    Bottom: 80px;
+    Bottom: 0px;
     border-style: solid;
     border-collapse: collapse;
     border-color: rgb(229, 168, 26);
-    width: 20em;
+    width: 100%;
     text-align: center;
 }
 .Farkle td {
