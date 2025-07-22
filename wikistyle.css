@@ -84,16 +84,15 @@ background-attachment:local ,scroll, fixed;
    }
 
    .Farkle {
-    float: center;
+    float: right;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
     padding-left: 10px;
    }
 
    .Farkle table {
     position: relative;
-    Bottom: 0px;
     border-style: solid;
     border-collapse: collapse;
     border-color: rgb(229, 168, 26);
